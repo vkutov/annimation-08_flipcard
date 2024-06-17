@@ -38,13 +38,18 @@ section {
 }
 
 main:hover article {
-    .back{
-        transform: rotateX(-90deg);
+    .back {
+        transform: rotateY(-90deg);
     }
+
     section {
         transform: rotateY(180deg);
     }
-  
+
+    .front {
+        transform: rotateY(0deg);
+    }
+
 }
 
 
@@ -56,5 +61,5 @@ main:hover article {
 .front {
     position: absolute;
     background-color: blue;
-    transform: rotateY(-90deg);
+    transform: rotateY(90deg);
 }
